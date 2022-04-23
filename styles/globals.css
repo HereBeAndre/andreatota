@@ -32,6 +32,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  color: hsl(0deg, 0%, 100%);
 }
 /*
   6. Improve media defaults
@@ -91,4 +92,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.MaxWidthWrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 32px;
+  padding-right: 32px;
 }
